@@ -54,5 +54,13 @@ nav a:hover {
     font-size: 2.5rem;
 }
 /* Main Content */
+.section-heading {
+    font-size: 2rem;
+    font-family: 'Rubik Moonrocks', sans-serif;
+    width: 100%;
+    background-color: #c3dee8;
+    text-align: center;
+    color: cornflowerblue;
+}
 
 /* Footer */
