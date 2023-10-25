@@ -1,0 +1,58 @@
+/* Global Styles */
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+nav {
+    background-color: #c3dee8;
+    width: 100%;
+    position: fixed;
+    border: 2px solid cornflowerblue;
+}
+
+nav ul {
+    width: 60%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.25rem;
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+
+nav a {
+    color: cornflowerblue;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.banner {
+    background: url(./anton-maksimov-5642-su-NHWSLNffg1s-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Moonrocks', sans-serif;
+    color: #c3dee8;
+}
+
+.banner h1 {
+    font-size: 3rem;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+/* Main Content */
+
+/* Footer */
