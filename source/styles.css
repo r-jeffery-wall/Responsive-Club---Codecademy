@@ -44,6 +44,7 @@ nav a:hover {
     align-items: center;
     font-family: 'Rubik Moonrocks', sans-serif;
     color: #c3dee8;
+    text-shadow: 2px 2px black;
 }
 
 .banner h1 {
@@ -61,6 +62,8 @@ nav a:hover {
     background-color: #c3dee8;
     text-align: center;
     color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    text-shadow: 2px 2px black;
 }
 
 /* Footer */
