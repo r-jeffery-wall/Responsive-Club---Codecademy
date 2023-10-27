@@ -17,7 +17,7 @@ img {
 }
 
 section {
-    height: 1250px;
+    height: 1200px;
     width: 100%;
 }
 /* Header */
@@ -87,7 +87,7 @@ nav a:hover {
 .copy-container {
     width: 50%;
     float: right;
-    height: 1000px;
+    height: 90%;
     font-size: 2.5rem;
     text-align: center;
     display: flex;
@@ -98,7 +98,7 @@ nav a:hover {
 .image-gallery {
     width: 50%;
     float: right;
-    height: 1000px; 
+    height: 90%; 
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -123,4 +123,32 @@ footer {
 
 footer h5 {
     font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .copy-container {
+        width: 100%;
+        float: none;
+    }
+
+    .image-gallery {
+        width: 100%;
+        float: none;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 0 1rem;
+    }
 }
